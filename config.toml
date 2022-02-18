@@ -1,8 +1,8 @@
-baseURL = "https://example.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Hugo Winston"
-themesDir = "../.."
-theme = "hugo-winston"
+themesDir = "themes"
+theme = "hugo-winston-theme"
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -22,3 +22,15 @@ paginate = 3
   showPostsOnHomepage = false
   addFrame = true
   addDot = true
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts"
+
+[[menu.main]]
+  name = "About"
+  url = "/pages/about"
